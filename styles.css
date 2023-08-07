@@ -6,3 +6,27 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+#heatmap {
+    width: 936px; /* Adjusted for no gaps between boxes */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.week-box {
+    width: 12px;
+    height: 12px;
+    transition: background-color 0.3s;
+}
+
+.past-week {
+    background-color: #ebedf0;
+}
+
+.week-passed {
+    background-color: #9be9a8;
+}
+
+.year-label {
+    font-size: 10px;
+}
